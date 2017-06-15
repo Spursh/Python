@@ -1,4 +1,4 @@
-s1 = "abcad"
+s1 = "abcdc"
 s2 = ""
 for i in s1:
     if i not in s2:

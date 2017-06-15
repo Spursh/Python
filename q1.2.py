@@ -1,7 +1,8 @@
-s1 = "abc"
-s2 = "cab"
-s3 = s2 * 2
-if (len(s2) == len(s1) and s3.__contains__(s1)):
+s1 = "acb"
+s2 = "cba"
+sort1 = sorted(s1)
+sort2 = sorted(s2)
+if (len(s2) == len(s1) and sort1 == sort2):
     print "permutaion string"
 else:
     print "non permutaion string"
